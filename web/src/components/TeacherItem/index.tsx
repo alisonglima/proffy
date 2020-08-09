@@ -1,37 +1,56 @@
 import React from "react";
 
+import api from "../../services/api";
+
 import "./styles.css";
 
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
 
-const TeacherItem = () => {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  async function createNewConnection() {
+    await api.post("connections", {
+      user_id: teacher.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://avatars2.githubusercontent.com/u/33833368?s=460&u=3dc1739dc9dafa0bf9abb791ba6b08fae336ab8c&v=4"
-          alt="Alison Gustavo"
-        />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Alison Gustavo</strong>
-          <span>Matemática</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
-      <p>
-        Entusiasta das melhores tecnologias de química avançada.
-        <br /> <br />
-        Apaixonado por explodir coisas em laboratório e por mudar a vida das
-        pessoas através de experiências.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
-          Preço/hora <strong>R$ 80,00</strong>
+          Preço/hora <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          target="_blank"
+          onClick={createNewConnection}
+          href={`https://wa.me/${teacher.whatsapp}`}
+          type="button"
+        >
           <img src={whatsappIcon} alt="WhatsApp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
