@@ -5,14 +5,26 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+    <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+    
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alisonglima/proffy">
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/alisonglima/proffy">
+  
+  <a href="https://github.com/alisonglima/proffy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alisonglima/proffy">
+  </a>
+
+  <a href="https://github.com/alisonglima/proffy/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/alisonglima/proffy">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
 
 <br>
