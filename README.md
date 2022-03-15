@@ -46,6 +46,15 @@ This project was developed with the following technologies:
 
 Proffy is an online study platform that helps people find teachers online.
 
+## 🤔 How to contribute
+
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
+
+After your pull request is merged, you can delete your branch.
+
 ## 🔖 Layout
 
 In the links below you will find the layout of the web and mobile project. Remembering that you need to have an account on [Figma](http://figma.com/) to access it.
