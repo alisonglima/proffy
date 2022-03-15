@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
 
@@ -33,22 +33,22 @@
   <img alt="Proffy" src=".github/proffy.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
-## 💻 Projeto
+## 💻 Project
 
-O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
+Proffy is an online study platform that helps people find teachers online.
 
 ## 🔖 Layout
 
-Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+In the links below you will find the layout of the web and mobile project. Remembering that you need to have an account on [Figma](http://figma.com/) to access it.
 
-- [Layout Web](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
+- [Web Layout](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
 - [Layout Mobile](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
